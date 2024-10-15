@@ -206,8 +206,37 @@ img {
 	border: 2px solid hsla(0, 0%, 100%, .5);
 }
 
-/*===== INFO =====*/
+.perfil__name {
+	font: var(--font-regular) var(--biggest-font-size) var(--second-font);
+	margin-bottom: 1rem;
+}
 
+.perfil__buttons {
+	display: grid;
+	column-gap: .5rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.perfil__buttons .button {
+	padding: .75rem;
+}
+/*===== INFO =====*/
+.info {
+	background-color: var(--container-color);
+	padding: 2rem 1.5rem;
+	border-radius: 2rem;
+}
+
+.info__circle {
+	width: 2rem;
+	height: 2rem;
+	background-color: var(--first-color);
+	border-radius: 50%;
+}
+
+.info__name {
+	font: var(--font-regular) var(--h1-font-size) var(--second-font);
+}
 
 /*===== ABOUT =====*/
 
@@ -216,7 +245,24 @@ img {
 
 
 /*=============== BUTTON ===============*/
+.button {
+	display: inline-flex;
+	justify-content: center;
+	background-color: var(--first-color);
+	color: var(--white-color);
+	font-weight: var(--font-semi-bold);
+	padding: 1.25rem 2.5rem;
+	border-radius: 4rem;
+	transition: background-color .4s;
+}
 
+.button__black {
+	background-color: var(--black-color);
+}
+
+.button:hover {
+	background-color: var(--first-color-alt);
+}
 
 /*=============== PROJECTS ===============*/
 
