@@ -238,6 +238,36 @@ img {
 	font: var(--font-regular) var(--h1-font-size) var(--second-font);
 }
 
+.info__data {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: .5rem;
+}
+
+.info__image {
+	background: var(--conic-gradient);
+	height: 180px;
+	border-radius: 2rem;
+	display: grid;
+	margin-block: 1.5rem;
+	overflow: hidden;
+}
+
+.info__img {
+	width: 140px;
+	justify-self: center;
+	align-self: flex-end;
+}
+
+.info__description {
+	font-size: var(--small-font-size);
+	margin-bottom: 2rem;
+}
+.info .button {
+	width: 100%;
+}
+
 /*===== ABOUT =====*/
 
 
